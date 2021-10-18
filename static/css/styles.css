@@ -1,0 +1,176 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(LEMONMILK-Bold.otf);
+  }
+
+p{
+    font-family: 'Courier New';
+    padding: 0;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 20px;
+
+}
+
+.drp{
+    margin-left: 1200px;
+    margin-top: -670px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    align-content: right;
+    background-color: #00a971;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    background-color: #eed501;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #00a971; color: black;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #eed501;}
+
+.logo{
+    display: block;
+    margin-left: 480px;
+    padding: none;
+}
+
+
+body{
+    background-image: url(Background.png);
+    background-size: cover;
+    height: 100%;
+    font-family: 'LemonMilk';
+    color: black;
+}
+
+.container1{
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 20px;
+    height: 380px;
+    width: 500px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px gray;
+    border-radius: 5px;
+}
+
+.container2{
+    align-content: center;
+    margin-top: -425px;
+    margin-left: 650px;
+    padding: 20px;
+    height: 380px;
+    width: 500px;
+    text-align: center;
+    border: dotted 2px black;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px gray;
+    border-radius: 5px;
+}
+
+.inline-div {
+    display:inline-block;
+}
+.inline-txtarea{
+    resize: none;
+    border : none;
+    height:350px;
+    width: 500px;
+    
+}
+
+textarea { 
+    font-size: 18px; 
+    color: gray;
+    font-family: 'Courier New';
+}
+
+.copypaste{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+
+.lang{
+    margin-top: -22px;
+    margin-left: 400px;
+}
+
+
+.btncont{
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.button{
+    border: 2px solid #EED501;
+    background-color: #00A971;
+    size: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: LemonMilk;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    background-color: #EED501;
+  }

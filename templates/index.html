@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<title>Ernie: Text Summarizer</title>
+<link rel="stylesheet" href="../static/css/styles.css">
+<link rel="shortcut icon" type="image/jpg" href="icon.png"/>
+
+</head>
+
+<body>
+
+<div class="logo">
+    <img src="/static/css/ernie.png" alt="Ernie logo">
+</div>
+<h1><center>A Multi-lingual Text Summarizer</center></h1>
+
+    <!-- INPUT RAW DATA -->
+    <div class="container1">
+    <div class="inline-div">
+        <form method="POST" action="/analyze">
+        <textarea name="rawtext" cols="40" rows="20" style= "resize: none" class="inline-txtarea">Type or past text to be summarized</textarea>
+         <div class="btncont">
+        <button class="button button2" type="submit">Summarize</button>
+         </div>
+
+        </form>
+    </div>
+
+        <!-- URL -->
+    <div class="copypaste">
+        <form method="POST" action="/analyze_url">
+        <input type="url" placeholder="Paste Article Link Here" id="urlcopy" name="raw_url" style= "width:350px">
+        </form>
+    </div>
+    
+        <div class="lang">
+            <select name="language" id="language">
+                <option value="english">English</option>
+                <option value="tagalog">Tagalog</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- SUMMARY DISPLAY -->
+    <div class="container2">
+    <div class="inline-div">
+        <textarea name="summary" cols="40" rows="20" class="inline-txtarea" style="resize: none" readonly>Summarized text will appear here :D</textarea>
+    </div>
+
+    </div>
+    
+    
+
+
+
+<div class="drp">
+    <div class="dropdown">
+      <button class="dropbtn"><img src="head.png" style="width: 50px"></button>
+      <div class="dropdown-content">
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+</div>
+    
+</body>
+</html>
